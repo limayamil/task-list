@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+form {
+  margin-bottom: 1em;
+}
+
+form input[type="text"] {
+  padding: 0.5em;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 80%;
+  margin-right: 0.5em;
+}
+
+form button[type="submit"] {
+  padding: 0.5em;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+li span {
+  margin-right: 0.5em;
+}
+
+li.completed span {
+  text-decoration: line-through;
+}
